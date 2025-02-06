@@ -5,3 +5,5 @@ pt:
   out_of_stock: "Esgotado"
   email_me_when_available: "Me avise quanto chegar"
   submit: "Enviar"
+  good_news: "Boas notícias!"
+  is_back_in_stock: "está devolta ao nosso estoque!"
