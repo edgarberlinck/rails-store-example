@@ -29,3 +29,8 @@
 
 en:
   products: "Products"
+  subscribed: "You are now subscribed"
+  in_stock: "in stock"
+  out_of_stock: "Out of stock"
+  email_me_when_available: "Email me when available"
+  submit: "Submit"

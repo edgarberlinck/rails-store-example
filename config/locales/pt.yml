@@ -1,2 +1,7 @@
 pt:
   products: "Produtos"
+  subscribed: "Você será notificado sobre este produto"
+  in_stock: "em estoque"
+  out_of_stock: "Esgotado"
+  email_me_when_available: "Me avise quanto chegar"
+  submit: "Enviar"

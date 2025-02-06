@@ -1,0 +1,11 @@
+<% if product.inventory_count? %>
+    <p><%= product.inventory_count %> <%= t "in_stock" %> </p>
+<% else %>
+    <p><%= t "out_of_stock" %></p>
+    <p><%= t "email_me_when_available" %>
+
+    <%= form_with model: [product, Subscriber.new] do |form| %>
+        <%= form.email_field :email, placeholder: "you@example.com", required: true %>
+        <%= form.submit t "submit" %>
+    <% end %>
+<% end %>
