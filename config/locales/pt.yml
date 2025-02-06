@@ -7,3 +7,5 @@ pt:
   submit: "Enviar"
   good_news: "Boas notícias!"
   is_back_in_stock: "está devolta ao nosso estoque!"
+  unsubscribed: "Notificação removida com sucesso."
+  unsubscribe: "Cancelar esta notificação"

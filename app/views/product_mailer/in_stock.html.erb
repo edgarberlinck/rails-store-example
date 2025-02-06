@@ -3,3 +3,5 @@
 <p>
   <%= link_to @product.name, product_url(@product) %> <%= t "is_back_in_stock" %> 
 </p>
+
+<%= link_to t("unsubscribe"), unsubscribe_url(token: params[:subscriber].generate_token_for(:unsubscribe)) %>

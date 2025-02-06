@@ -2,3 +2,5 @@
 
 <%= @product.name %> <%= t "is_back_in_stock" %>
 <%= product_url(@product) %>
+
+<%= t "unsubscribe" %>: unsubscribe_url(token: params[:subscriber].generate_token_for(:unsubscribe))
