@@ -6,7 +6,7 @@ class SubscribersController < ApplicationController
         @product.subscribers.where(subscriber_params).first_or_create
         redirect_to @product, notice: t("subscribed")
     end
-    
+
     private
 
     def set_product
